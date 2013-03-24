@@ -48,7 +48,7 @@ end
 -- Create a new die with the chosen number of sides
 -- Example: local die = Dice.newDie(6)
 function Dice.newDie(sides)
-	if sides == nil then
+	if not sides then
 		sides = DEFAULT_SIDES
 	else
 		assert(type(sides) == "number", "sides must be a number (or omit it for a 6-sided die)")
