@@ -15,6 +15,9 @@ Dice.__index = Dice
 local Die = {}
 Die.__index = Die
 
+-- Seed the random number generator
+math.randomseed(os.time())
+
 -- The number of sides on our default die
 local DEFAULT_SIDES = 6
 

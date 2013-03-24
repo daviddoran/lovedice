@@ -6,7 +6,7 @@ This is a small (and hopefully useful) Lua library for rolling dice.
 
 Import the library:
 
-	local Dice = require('lovedice.lua')
+	local Dice = require("lovedice")
 
 Roll the default six-sided die:
 
